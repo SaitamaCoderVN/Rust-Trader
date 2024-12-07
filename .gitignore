@@ -1,0 +1,41 @@
+# Thư mục build và biên dịch
+/target/
+target/
+**/target/
+/build/
+/out/
+/bin/
+
+# File và thư mục IDE
+.idea/
+*.iml
+.vscode/
+*.sublime-*
+*.swp
+.settings/
+.project
+.classpath
+
+# File logs
+*.log
+logs/
+
+# File hệ thống
+.DS_Store
+Thumbs.db
+
+# File môi trường
+.env
+.env.local
+*.properties
+
+# Thư mục dependencies
+/node_modules/
+/vendor/
+/dist/
+
+# File biên dịch
+*.class
+*.jar
+*.war
+*.ear
